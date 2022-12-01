@@ -1,0 +1,42 @@
+#  $$\   $$\                                      $$$$$$\              $$\     $$\
+#  $$ |  $$ |                                    $$  __$$\             $$ |    \__|
+#  $$ |  $$ | $$$$$$\   $$$$$$\   $$$$$$\        $$ /  $$ | $$$$$$$\ $$$$$$\   $$\  $$$$$$\  $$$$$$$\   $$$$$$$\
+#  $$$$$$$$ |$$  __$$\ $$  __$$\ $$  __$$\       $$$$$$$$ |$$  _____|\_$$  _|  $$ |$$  __$$\ $$  __$$\ $$  _____|
+#  $$  __$$ |$$$$$$$$ |$$ |  \__|$$ /  $$ |      $$  __$$ |$$ /        $$ |    $$ |$$ /  $$ |$$ |  $$ |\$$$$$$\
+#  $$ |  $$ |$$   ____|$$ |      $$ |  $$ |      $$ |  $$ |$$ |        $$ |$$\ $$ |$$ |  $$ |$$ |  $$ | \____$$\
+#  $$ |  $$ |\$$$$$$$\ $$ |      \$$$$$$  |      $$ |  $$ |\$$$$$$$\   \$$$$  |$$ |\$$$$$$  |$$ |  $$ |$$$$$$$  |
+#  \__|  \__| \_______|\__|       \______/       \__|  \__| \_______|   \____/ \__| \______/ \__|  \__|\_______/
+#
+prefix:
+  #- Lasciare vuoto se non si vuole il prefix.
+  display: "&b&lBISIGNANO "
+reload-config:
+  #- Permesso: 'heroaction.reload'
+  noPermissions: "&cNon hai il permesso di eseguire questo comando."
+  wrongLength: "&cComando errato, usa /action reload."
+  message: "&aConfig ricaricato."
+a:
+  message: "&e** &lAZIONE&e: &7%player% &8» &e%message%"
+  wrongLength: "&cUsa, /a <azione>"
+bisbiglio:
+  message: "&b** &lBISBIGLIO: &7%player% &8» &b%message%"
+  timeToWait: "&cPer eseguire di nuovo questo comando devi aspettare altri &e%time%"
+  #- secondi (s)
+  cooldown: 30
+urlo:
+  message: "&b** &lURLO: &7%player% &8» &b%message%"
+  timeToWait: "&cPer eseguire di nuovo questo comando devi aspettare altri &e%time%"
+  #- secondi (s)
+  cooldown: 30
+godo:
+  wrongLength: "&cPer eseguire questo comando svolgi /godo"
+  particle: "VILLAGER_HAPPY"
+  numberOfParticles: 100
+  title: "&a&lGODO"
+  subtitle: "&7Stai godendo!"
+  fadeIn: 10
+  stay: 10
+  fadeOut: 10
+  timeToWait: "&cPer eseguire di nuovo questo comando devi aspettare altri &e%time%"
+  #- secondi (s)
+  cooldown: 30

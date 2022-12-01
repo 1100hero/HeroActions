@@ -1,0 +1,16 @@
+name: HeroActions
+version: '${project.version}'
+main: org.hero.heroactions.HeroActions
+api-version: 1.16
+depend: [ProtocolLib]
+authors: [ 1100hero ]
+description: Azioni e Godo di Hero per Bisignano
+commands:
+  godo:
+    description: "Permette di farti godere come un animale."
+  a:
+    description: "Ti fa eseguire una azione."
+  action:
+    description: "Ricarica il config."
+  actionreload:
+    description: "Ricarica il config."
